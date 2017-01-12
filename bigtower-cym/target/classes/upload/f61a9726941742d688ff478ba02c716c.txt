@@ -1,0 +1,41 @@
+진료기록 종류
+
+1. 입퇴원기록지(Admission and Discharge Record)
+
+2. 퇴원요약지(Discharge Summary)
+
+3. 외래기록지(OPD Record)
+
+4. 의사처치지시서(Doctor's Orders)
+
+5. 경과기록지(Progress Note)
+
+6. 활력징후측정기록지(T.P.R Chart)
+
+7. 간호기록지(Nurse's Record)
+
+8. 수술 및 검사시술 동의서(Permission)
+
+9. 수술기록지(Operation Record)
+
+10. 마취기록지(Anesthesia Record)
+
+11. 회복실기록지(Recovery Room Record)
+
+12. 투약기록지(medication record)
+
+13. 중환자실 기록지(I.C.U Record)
+
+14. 임상병리검사기록지(Laboratory Reports)
+
+15. 조직병리검사보고서(Pathology Report)
+
+16. 방사선기록지(X-ray Report)
+
+17. 심전도검사보고서(Electrocardiographic Report)
+
+18. 초음파기록지
+
+19. MRI, CT, X-ray 등 일체의 영상검사를 담은 CD
+
+20. 기타 진료기록 일체

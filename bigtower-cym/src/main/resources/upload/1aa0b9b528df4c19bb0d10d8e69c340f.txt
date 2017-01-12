@@ -1,0 +1,119 @@
+tb_member테이블insert_update_delete_select쿼리문장연습
+1)전체회원조회 쿼리
+select * from tb_member;
+
+2)아이디전체 조회 쿼리
+select m_id from tb_member;
+
+3)비밀번호 전체 조회 궈리
+select m_pw from tb_member;
+
+4)권한 전체 조회 쿼리
+select m_level from tb_member;
+
+5)이름 전체 조회 쿼리
+select m_name from tb_member;
+
+6)이메일 전체 조회 쿼리
+select m_email from tb_member;
+
+7)아이디,비번,권한 조회 쿼리
+select m_id,m_pw,m_level from tb_member;
+
+8)id001 회원의 아이디,비번,권한,이름,이메일 조회 쿼리
+select * from tb_member where m_id='id001';
+
+9)id001 회원의 아이디,권한,이름 조회 쿼리
+select m_id,m_level,m_name from tb_member where m_id='id001';
+
+10)전체회원수 조회 쿼리
+select count(*) from tb_member;
+
+==========================================
+11)insert쿼리 문장
+INSERT INTO tb_member VALUES ('id006', 'pw006', '구매자', '홍06', 'email06');
+
+==========================================
+
+12)id005회원의 비밀번호 변경하는 update쿼리문장 작성
+
+UPDATE tb_member SET m_pw='u005' WHERE m_id='id005';
+
+13)id005회원의 권한 변경하는 update쿼리문장 작성
+UPDATE tb_member SET m_level='관리자' WHERE m_id='id005';
+
+14)id005회원의 이름 변경하는 update쿼리문장 작성
+UPDATE tb_member SET m_name='이길동' WHERE m_id='id005';
+
+15)id005회원의 이메일 변경하는 update쿼리문장 작성
+UPDATE tb_member SET m_email='updateemail' WHERE m_id='id005';
+
+16)id005회원의 비번,권한,이름,이메일 변경하는 update쿼리문장 작성
+UPDATE tb_member
+	SET
+		m_pw='upw',
+		m_level='ulevel',
+		m_name='uname',
+		m_email='uemail'
+	WHERE m_id = 'id005';
+
+==========================================
+17)id006 회원을 삭제하는 delete쿼리문장
+DELETE FROM tb_member WHERE m_id='id006';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
